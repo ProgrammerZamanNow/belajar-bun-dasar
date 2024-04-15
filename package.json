@@ -2,6 +2,9 @@
   "name": "belajar-bun-dasar",
   "module": "index.js",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^18.2.78"
