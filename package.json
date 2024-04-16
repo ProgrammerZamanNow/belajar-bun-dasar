@@ -7,13 +7,16 @@
   ],
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/express": "^4.17.21",
     "@types/react": "^18.2.78"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "react": "^18.2.0",
-    "winston": "^3.13.0"
+    "winston": "^3.13.0",
+    "zod": "^3.22.4"
   }
 }
